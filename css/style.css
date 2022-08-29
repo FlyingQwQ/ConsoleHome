@@ -1,0 +1,54 @@
+:root {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(87, 103, 131);
+    font-family:Arial;
+    font-size: 1rem;
+}
+
+#content {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    box-sizing: border-box;
+    position: fixed;
+    overflow-y: scroll;
+}
+
+#content #logFrame {
+    margin: 5px 0 5px 0;
+    color: rgb(198, 198, 198);
+}
+#content #logFrame > span {
+    margin: 5px 0 5px 0;
+    display: inline-block;
+}
+#content #inputFrame {
+    display: flex;
+
+}
+#content #inputFrame #SP1 {
+    margin-right: 5px;
+    color: rgb(198, 198, 198);
+}
+#content #inputFrame #SP2 {
+    flex-grow: 2;
+}
+#content #inputFrame #SP2 #commandInput {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(198, 198, 198);
+    font-family:Arial;
+    font-size: 1rem;
+}
