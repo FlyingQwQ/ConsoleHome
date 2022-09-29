@@ -1,7 +1,7 @@
 (function(){
-    let web = consoleHome.registerProgram('lweb', '1.0.0');
+    let web = consoleHome.registerProgram('Web', '1.0.0');
     web.setUsage(`
-    LWeb【${web.checkVersion()}】
+    Web【${web.checkVersion()}】
     🔎浏览器操作，跳转到指定连接或者使用某个搜索引擎搜索🔎
 
     &blue命令：web [-v 查看版本]&c6

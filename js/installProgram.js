@@ -8,7 +8,8 @@ let body = $('body');
 // 可以说是内置程序
 let localProgrames = [
     'system', 'clear', 
-    'help', 'music', 'web'
+    'help', 'music', 'web',
+    'edit'
 ];
 
 let fileNames = {};

@@ -56,6 +56,7 @@ class ConsoleHome {
             SP1.show();
             SP2.show();
             commandInput.removeAttr('disabled');
+            commandInput.focus();
         }
     }
 
@@ -235,7 +236,6 @@ commandInput.on('keydown', function(e) {
             promise.then(() => {
                 consoleHome.currRunningCommand.isrunning = false;
                 consoleHome.forbidCommandLine(false);
-                commandInput.focus();
             }).catch((error) => {
                 consoleHome.log('&red命令运行时发生了一些问题: ' + error);
                 consoleHome.forbidCommandLine(false);

@@ -1,7 +1,7 @@
 (function(){
-    let help = consoleHome.registerProgram('lhelp', '1.02.0');
+    let help = consoleHome.registerProgram('Help', '1.02.0');
     help.setUsage(`
-    LHelp【${help.checkVersion()}】
+    Help【${help.checkVersion()}】
     &dodgerblue帮助命令，可以查询所有程序和命令&c6
 
     命令：help <程序名> [-v 查看版本]
