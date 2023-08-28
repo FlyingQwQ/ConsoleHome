@@ -11,4 +11,4 @@
 可以通过app目录里面实例来开发自己的命令行工具
 
 
-测试网站：https://console.kuoer.top/
+测试网站：https://console-home.vercel.app/（可能需要挂梯子）
